@@ -1,0 +1,10 @@
+body {
+  color: rgb(214, 238, 238)
+}  
+
+h1,
+h2,
+h3, {
+  color: #333333;
+  font-family: 'Playfair Display', serif;
+}

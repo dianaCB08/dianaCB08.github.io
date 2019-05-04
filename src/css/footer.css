@@ -1,0 +1,19 @@
+.dc_Footer {
+}
+
+.dc_Footer-socialNetwork {
+  float: right;
+}
+
+.dc_Footer-socialNetwork-item {
+ margin: 0 4%
+ transition: color 0.5s ease;
+}
+
+.dc_Footer-socialNetwork-item:hover {
+  color: blueviolet
+}
+
+.dc_Footer-socialNetwork-item:first-child {
+  margin-left: 0%
+}
