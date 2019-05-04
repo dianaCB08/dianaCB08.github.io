@@ -1,0 +1,45 @@
+.dc_Card {
+  background-color: white;
+  padding: 24px;
+}
+
+.dc_Card-overview {
+  margin-bottom: 32px;
+}
+
+.dc_Card-overview-general {
+  margin-bottom: 12px;
+}
+
+.dc_Card-overview-general-name {
+  font-size: 24px;
+  display: block;
+}
+
+.dc_Card-overview-contact-location,
+.dc_Card-overview-contact-socialNetworks,
+.dc_Card-overview-contact-socialNetworks-item {
+  display: inline-block;
+}
+
+.dc_Card-overview-contact-location span {
+  font-size: 12px;
+}
+
+.dc_Card-overview-contact-socialNetworks {
+  float: right;
+}
+
+.dc_Card-overview-contact-socialNetworks-item {
+  margin: 0 4px;
+  transition: color ease 500ms;
+}
+
+
+.dc_Card-overview-contact-socialNetworks-item:last-child {
+  margin-right: 0;
+}
+
+.dc_Card-overview-contact-socialNetworks-item:hover {
+  color: #FF9AFD;
+}

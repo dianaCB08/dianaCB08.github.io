@@ -6,53 +6,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Muli" rel="stylesheet">
+  <link rel="stylesheet" href="./css/global.css">
   <link rel="stylesheet" href="./css/icon-fonts.css">
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
-  <style>
-      * {
-      margin: 10px;
-      padding: 0px;
-    }
-
-  </style>
+  <link rel="stylesheet" href="./css/utils.css">
+  <link rel="stylesheet" href="./css/card.css">
 </head>
-<link rel=”stylesheet” href=”global.css”>
-<body style="background-color:rgb(228, 194, 223)">
+<body>
   <div>
-    <p>Mi Perfil</p>
-    <div>
+    <h1 class="dc_u-onlyRead">Mi Perfil</h1>
+    <div class="dc_Card">
       <img src="" alt="">
-      <section>
-        <h2>overview</h2>
-        <div>
-          <p>
-            <strong>Diana Carrillo</strong>
-            <strong>Frontend Jr.</strong>
-           
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Quaesunt adipisci molestiae ut eum praesentium est officiis.
-              Excepturi illum perferendis et temporibus, earum rem vel,
-              veritatis cum omnis corporis harum!</p>
-
-          </p>
+      <section class="dc_Card-overview">
+        <h2 class="dc_u-onlyRead">overview</h2>
+        <div class="dc_Card-overview-general">
+          <strong class="dc_Card-overview-general-name">Diana Carrillo</strong>
+          <strong class="dc_Card-overview-general-job">Frontend Jr.</strong>
         </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Quaesunt adipisci molestiae ut eum praesentium est officiis.
+          Excepturi illum perferendis et temporibus, earum rem vel,
+          veritatis cum omnis corporis harum!
+        </p>
       </section>
-      <section>
-        <address><i class="dcb-location"></i><span>Saltillo, Coahuila.</span>
+      <section class="dc_Card-overview-contact">
+        <address class="dc_Card-overview-contact-location">
+          <i class="dcb-location"></i>
+          <span>Saltillo, Coahuila.</span>
         </address>
-        <ul>
-          <li>
-            <a href="#"></a>
-            <i class="dcb-email"></i>
-            <span class="dcb_u-onlyRead">email</span>
+        <ul class="dc_Card-overview-contact-socialNetworks">
+          <li class="dc_Card-overview-contact-socialNetworks-item">
+            <a href="#">
+              <i class="dcb-email"></i>
+              <span class="dc_u-onlyRead">email</span>
+            </a>
           </li>
-          <li>
-            <a href="#"></a>
-            <i class="dcb-github"></i>
+          <li class="dc_Card-overview-contact-socialNetworks-item">
+            <a href="#">
+              <i class="dcb-github"></i>
+              <span class="dc_u-onlyRead">github</span>
+            </a>
           </li>
-          <li>
-            <a href="#"></a>
-            <i class="dcb-linkedin"></i>
+          <li class="dc_Card-overview-contact-socialNetworks-item">
+            <a href="#">
+              <i class="dcb-linkedin"></i>
+              <span class="dc_u-onlyRead">linkedin</span>
+            </a>
           </li>
         </ul>
       </section>
