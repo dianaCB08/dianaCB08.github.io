@@ -1,6 +1,6 @@
 .dc_Card {
   background-color: white;
-  padding: 324px 24px 24px;
+  padding: 20em 1.5em 1.5em; /* 16px - 1em */
   position: relative;
 }
 
@@ -15,33 +15,34 @@
  top: 0;
  left: 0;
  right: 0;
- height: 300px ;
+ height: 19em;
 }
 
 
 .dc_Card-overview {
-  margin-bottom: 32px;
+  margin-bottom: 0.5em;
 }
 
 .dc_Card-overview-general {
-  margin-bottom: 12px;
+  margin-bottom: 0.16em;
 }
 
 .dc_Card-overview-general-name {
-  font-size: 24px;
+  font-size: 1.5rem;
+  margin-bottom: 0.333em;
   display: block;
 }
 
 .dc_Card-overview-contact-location {
-  margin-bottom: 8px;
+  margin-bottom: 0.25em;
 }
 
 .dc_Card-overview-contact-location span {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 
 .dc_Card-overview-contact-socialNetworks-item {
-  font-size: 24px;
+  font-size: 1.5em;
   display: inline-block;
 }
 
@@ -69,7 +70,7 @@
 
   .dc_Card {
     width: 80%;
-    box-shadow: 0px 0px 43px 2px rgba(0,0,0,0.55);
+    box-shadow: 0em 0em 2.687em 0.125em rgba(0,0,0,0.55);
 
   }
   
@@ -82,27 +83,27 @@
 
 @media screen and (min-width: 768px) {
 .dc_Card {
-  padding-top: 24px;
-  padding-left: 344px;
+  padding-top: 1.5em;
+  padding-left: 21.5em;
 }
 
 .dc_Card::before {
   height: 100%;
-  width: 320px;
+  width: 20em;
  background-image: url("../image/dgcb-desk.jpg");
   }
 }
 
 @media screen and (min-width: 992px) {
   .dc_Card {
-    max-width: 800px;
-    padding-left: 368px;
+    max-width: 50em;
+    padding-left: 23em;
   }
   
   .dc_Card::before {
-    left: 24px;
-    top: -24px;
-    bottom: -24px;
+    left: 1.5em;
+    top: -1.5em;
+    bottom: -1.5em;
     height: auto;
     }
   
