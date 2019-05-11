@@ -1,7 +1,23 @@
 .dc_Card {
   background-color: white;
-  padding: 24px;
+  padding: 248px 24px 24px;
+  position: relative;
 }
+
+.dc_Card::before {
+ content: "image";
+ position: absolute;
+ background-color: rgba(0, 0, 0, 0.1);
+ background-image: url("../image/dgcb-movil.jpg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ top: 0;
+ left: 0;
+ right: 0;
+ height: 224px ;
+}
+
 
 .dc_Card-overview {
   margin-bottom: 32px;
@@ -16,18 +32,17 @@
   display: block;
 }
 
-.dc_Card-overview-contact-location,
-.dc_Card-overview-contact-socialNetworks,
-.dc_Card-overview-contact-socialNetworks-item {
-  display: inline-block;
+.dc_Card-overview-contact-location {
+  margin-bottom: 8px;
 }
 
 .dc_Card-overview-contact-location span {
   font-size: 12px;
 }
 
-.dc_Card-overview-contact-socialNetworks {
-  float: right;
+.dc_Card-overview-contact-socialNetworks-item {
+  font-size: 24px;
+  display: inline-block;
 }
 
 .dc_Card-overview-contact-socialNetworks-item {
