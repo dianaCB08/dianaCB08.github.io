@@ -5,7 +5,7 @@
 }
 
 .dc_Card::before {
- content: "image";
+ content: "";
  position: absolute;
  background-color: rgba(0, 0, 0, 0.1);
  background-image: url("../image/dgcb.jpg");
@@ -70,7 +70,7 @@
 
   .dc_Card {
     width: 80%;
-    box-shadow: 0em 0em 2.687em 0.125em rgba(0,0,0,0.55);
+    box-shadow: 0em 0em 2.687em 0.125em rgba(0,0,0,0.35);
 
   }
   
